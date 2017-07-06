@@ -98,7 +98,7 @@ var lang = [
     "C#",
     "node.js",
     "Elm",
-    "Elixer",
+    "Elixir",
     "TypeScript",
     "Python",
     "Ruby",
@@ -108,7 +108,7 @@ var lang = [
     "Lisp",
     "Go",
     "Java",
-    "Cofeescript",
+    "Coffeescript",
     "Dart",
 ];
 
