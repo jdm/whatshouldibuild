@@ -1,0 +1,29 @@
+<script src="rando.js"></script>
+<style>
+  body {
+    text-align: center;
+  }
+</style>
+<h5>Why don't you...</h5>
+<h1 id="gen"></h1>
+<input type=button onclick="gen()">
+<script>
+  var quotes = [
+    "Hit me with another",
+    "Try again",
+    "That sounds cool",
+    "I like it",
+    "I've heard better",
+    "I am digging it",
+    "There's already a startup for that",
+    "Tell me more",
+    "Not interested",
+    "That might work",
+  ];
+
+  function gen() {
+    document.querySelector('#gen').innerHTML = inspire();
+    document.querySelector('input').value = choose(quotes);
+  }
+  gen();
+</script>
