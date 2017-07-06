@@ -110,6 +110,8 @@ var lang = [
     "Java",
     "Coffeescript",
     "Dart",
+    "MUMPS",
+    "Malbolge",
 ];
 
 var modifiers = [
