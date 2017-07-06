@@ -201,7 +201,7 @@ var patterns = [
     ["Write", modifiers, lang, "bindings for", crate],
     ["Make a proof of concept clone of", crate, "for", tech],
     ["Create a Rust-based bridge from", lang, "to", lang],
-    ["Transpile", lang, "to Rust"],
+    ["Transpile", lang, "to", optional_modifier, "Rust"],
     ["Transpile Rust to", lang],
     ["Write a", optional_modifier, lang, "interpreter in Rust"],
     ["Release the first crate for", tech],
