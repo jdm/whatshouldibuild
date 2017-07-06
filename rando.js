@@ -178,6 +178,10 @@ function tech() {
         "steganography",
         "raytracing",
         ["a", optional_modifier, "kernel module"],
+        ["a", optional_modifier, "text editor"],
+        "musical analysis",
+        "complicated math",
+        "natural language processing",
     ];
     var t = choose(techs);
     if (typeof t === "string") {
