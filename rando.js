@@ -107,6 +107,9 @@ var lang = [
     "Elisp",
     "Lisp",
     "Go",
+    "Java",
+    "Cofeescript",
+    "Dart",
 ];
 
 var modifiers = [
