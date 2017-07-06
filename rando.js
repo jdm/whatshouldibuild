@@ -176,7 +176,7 @@ function tech() {
         "biochemistry",
         "artificial intelligence",
         "audio production",
-        "database",
+        "databases",
         "long-term storage",
         "steganography",
         "raytracing",
