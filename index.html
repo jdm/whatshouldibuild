@@ -1,10 +1,15 @@
 <script src="rando.js"></script>
 <style>
-  body {
+  #content {
     text-align: center;
   }
+  footer {
+    text-align: right;
+    font-style: oblique;
+  }
 </style>
-<h5>Why don't you...</h5>
+<div id="content">
+<h3>Why don't you...</h3>
 <h1 id="gen"></h1>
 <input type=button onclick="gen()">
 <script>
@@ -27,3 +32,9 @@
   }
   gen();
 </script>
+</div>
+<footer>
+<p>Created by <a href="https://twitter.com/lastontheboat">Josh Matthews</a>.
+  <a href="https://github.com/jdm/whatcanibuild">Patches welcome</a>.
+</p>
+</footer>
