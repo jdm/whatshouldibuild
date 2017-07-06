@@ -195,7 +195,7 @@ function tech() {
 
 var patterns = [
     ["Use", crate, "for", tech],
-    ["Use", crate, "for", tech],
+    ["Learn about", tech, "using", crate],
     ["Build", tech, "only using", crate],
     ["Combine", crate, "and", crate, "to finally make", tech, "possible"],
     ["Write", modifiers, lang, "bindings for", crate],
