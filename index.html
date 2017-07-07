@@ -1,3 +1,5 @@
+<html>
+<head>
 <title>What should I build in Rust?</title>
 <script src="rando.js"></script>
 <style>
@@ -9,6 +11,9 @@
     font-style: oblique;
   }
 </style>
+</head>
+
+<body>
 <div id="content">
 <h3>Why don't you...</h3>
 <h1 id="gen"></h1>
@@ -32,10 +37,15 @@
     document.querySelector('input').value = choose(quotes);
   }
   gen();
+
+  document.querySelector('input').select();
 </script>
 </div>
 <footer>
-<p>Created by <a href="https://twitter.com/lastontheboat">Josh Matthews</a>.
-  <a href="https://github.com/jdm/whatshouldibuild">Patches welcome</a>.
-</p>
+    <p>
+        Created by <a href="https://twitter.com/lastontheboat">Josh Matthews</a>.
+        <a href="https://github.com/jdm/whatshouldibuild">Patches welcome</a>.
+    </p>
 </footer>
+</body>
+</html>
