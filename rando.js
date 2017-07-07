@@ -103,6 +103,7 @@ var lang = [
     "Go",
     "Haskell",
     "Java",
+    "JavaScript",
     "Lisp",
     "Malbolge",
     "MUMPS",
