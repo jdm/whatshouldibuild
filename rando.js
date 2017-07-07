@@ -182,6 +182,7 @@ function tech() {
         "space travel",
         "statistical analysis",
         "steganography",
+        ["the", optional_modifier, "ide"],
         ["the", optional_modifier, "backend"],
         ["the", optional_modifier, "blockchain"],
         ["the", optional_modifier, "frontend"],
