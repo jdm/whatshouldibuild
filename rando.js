@@ -197,20 +197,19 @@ function tech() {
 }
 
 var patterns = [
-    ["Use", crate, "for", tech],
-    ["Learn about", tech, "using", crate],
-    ["Build", tech, "only using", crate],
     ["Combine", crate, "and", crate, "to finally make", tech, "possible"],
-    ["Write", modifiers, lang, "bindings for", crate],
-    ["Make a proof of concept clone of", crate, "for", tech],
     ["Create a", optional_modifier, "Rust-based bridge from", lang, "to", lang],
+    ["Create the definitive benchmark of", crate, "for", tech],
+    ["Experiment with", tech, "in Rust"],
+    ["Incorporate the best ideas from", optional_modifier, lang, "into", crate],
+    ["Learn about", tech, "using", crate],
+    ["Make a proof of concept clone of", crate, "for", tech],
+    ["Release the first crate for", tech],
     ["Transpile", lang, "to", optional_modifier, "Rust"],
     ["Transpile Rust to", lang],
+    ["Use", crate, "for", tech],
     ["Write a", optional_modifier, lang, "interpreter in Rust"],
-    ["Release the first crate for", tech],
-    ["Incorporate the best ideas from", optional_modifier, lang, "into", crate],
-    ["Experiment with", tech, "in Rust"],
-    ["Create the definitive benchmark of", crate, "for", tech],
+    ["Write", modifiers, lang, "bindings for", crate],
 ];
 
 function inspire() {
